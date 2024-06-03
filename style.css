@@ -322,8 +322,9 @@ body {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
-  background-color: white; /* Adjust this to match the background color or use transparency */
+  /* background-color: white; Adjust this to match the background color or use transparency */
   padding: 0 5px; /* Optional: To add some space around the text */
+  /* opacity: 0.8; */
 }
 
 .quote-marks {
