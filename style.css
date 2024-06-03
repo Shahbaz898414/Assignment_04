@@ -311,6 +311,26 @@ body {
   background-color: #fff;
 } */
 
+.stack-container {
+  position: relative;
+  display: inline-block;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: white; /* Adjust this to match the background color or use transparency */
+  padding: 0 5px; /* Optional: To add some space around the text */
+}
+
+.quote-marks {
+  position: relative;
+  z-index: 0;
+}
+
 
 
 /* 
